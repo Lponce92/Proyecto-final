@@ -1,0 +1,18 @@
+
+body {
+    background-color: #CACAAA;
+    height: 100vh;
+}
+
+#container {
+    background-color: #EEC584;
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: cent;
+    
+}
+
+#container > .block {
+    padding: 20px;
+}
