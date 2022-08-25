@@ -3,16 +3,26 @@ body {
     background-color: #CACAAA;
     height: 100vh;
 }
-
-#container {
-    background-color: #EEC584;
-    padding: 20px;
+header{
     display: flex;
-    justify-content: right;
-    align-items: cent;
-    
+    min-height: 70px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-#container > .block {
-    padding: 20px;
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
 }
