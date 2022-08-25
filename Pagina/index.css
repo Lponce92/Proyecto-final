@@ -1,28 +1,47 @@
 
 body {
-    background-color: #CACAAA;
+    background-color: aqua;
     height: 100vh;
+    justify-content: center;
+    margin: 0%;
 }
-header{
+header {
     display: flex;
-    min-height: 70px;
-    background-color: coral;
+    background-color: aqua;
+    min-height: 1px;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 1px;
 }
 
-.logo{
+.logo {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .logo img{
-    height: 50px;
+    height: 40px;
 }
 
 @media (max-width:700px){
     header{
         flex-direction: column;
     }
+}
+
+#container {
+    padding: 1px;
+    display: flex;
+}
+
+#container > .block {
+    padding: 10px;
+}
+
+.information-container {
+    display: flex;
+}
+
+.information-container > .info {
+    margin-left: 5px;
 }
