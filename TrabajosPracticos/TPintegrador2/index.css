@@ -1,3 +1,11 @@
 .fondo {
     background-image: url(img/ba1.jpg);
 }
+
+.color {
+    background-color: blueviolet;
+}
+
+.texto {
+    text-align: center;
+}
