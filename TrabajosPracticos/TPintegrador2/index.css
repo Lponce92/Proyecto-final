@@ -9,3 +9,27 @@
 .texto {
     text-align: center;
 }
+
+.botones > input {
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: .1rem .2rem .1rem .2rem;
+    margin-bottom: .2rem;
+}
+
+.botones > input:hover {
+    animation: flash;
+    animation-duration: 1s;
+    animate-repeat: 2;    
+}
+
+.btnAmarillo {
+    background-color: rgb(254, 193, 6);
+    margin-right: .2rem;
+}
+
+
+.btnCeleste {
+    background-color: rgb(23, 162, 185);
+    color: white;
