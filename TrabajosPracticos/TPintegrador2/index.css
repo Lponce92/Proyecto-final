@@ -1,9 +1,16 @@
 .fondo {
     background-image: url(img/ba1.jpg);
+    height: 100%;
+    width: 100%;
 }
 
 .color {
-    background-color: blueviolet;
+    background:linear-gradient(to right,#1a3544,#1c5372);
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    font-size: 100%;
+    margin-top: 0.3cm;
 }
 
 .texto {
@@ -33,3 +40,8 @@
 .btnCeleste {
     background-color: rgb(23, 162, 185);
     color: white;
+}
+
+.btn-warning {
+    color: white;
+}
