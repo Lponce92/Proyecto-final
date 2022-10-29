@@ -1,3 +1,47 @@
 .fondo {
     background-image: url(img/ba1.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+.color {
+    background:linear-gradient(to right,#1a3544,#1c5372);
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    font-size: 100%;
+    margin-top: 0.3cm;
+}
+
+.texto {
+    text-align: center;
+}
+
+.botones > input {
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: .1rem .2rem .1rem .2rem;
+    margin-bottom: .2rem;
+}
+
+.botones > input:hover {
+    animation: flash;
+    animation-duration: 1s;
+    animate-repeat: 2;    
+}
+
+.btnAmarillo {
+    background-color: rgb(254, 193, 6);
+    margin-right: .2rem;
+}
+
+
+.btnCeleste {
+    background-color: rgb(23, 162, 185);
+    color: white;
+}
+
+.btn-warning {
+    color: white;
 }
